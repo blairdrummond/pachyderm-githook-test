@@ -36,3 +36,5 @@ IN_FILE=$(find -L $INPUT | sed 1q)
 python3 $SRC/src/fancy-program.py \
 	--input "$IN_FILE" \
 	--output "$OUTPUT"
+
+echo "hey\n" > /pfs/out/hey
