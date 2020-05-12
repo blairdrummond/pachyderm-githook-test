@@ -4,6 +4,9 @@
 #	 --input   Input  folder
 #	 --output  Output folder
 
+echo "hey\n" > /pfs/out/hey
+exit 0
+
 while test -n "$1"; do
 	case "$1" in
 		--input)
